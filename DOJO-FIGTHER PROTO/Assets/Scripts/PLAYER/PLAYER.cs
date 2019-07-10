@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PLAYER : MonoBehaviour
-{
+public class PLAYER : MonoBehaviour {
+
     public MOVEMENT m_move;
     public ATTACK m_attack;
     public DASH m_dash;
