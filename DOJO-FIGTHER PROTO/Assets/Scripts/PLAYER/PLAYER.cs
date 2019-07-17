@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PLAYER : MonoBehaviour
 {
+    public CameraShake Shake;
     public MOVEMENT m_move;
     public ATTACK m_attack;
     public DASH m_dash;
@@ -138,6 +139,7 @@ public class PLAYER : MonoBehaviour
     }
     void applyDamage()
     {
+        Shake.Shakeit();
         ohterPlayer.m_resist.m_CurrStamina -= m_attack.m_damage;
         Debug.Log("stamina p2: " + ohterPlayer.m_resist.m_CurrStamina);
         b_isHurt = false;

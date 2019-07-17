@@ -5,6 +5,7 @@ using UnityEngine;
 public class PLAYER2 : MonoBehaviour
 {
     // Start is called before the first frame update
+    public CameraShake Shake;
     public MOVEMENT m_move;
     public ATTACK m_attack;
     public DASH m_dash;
@@ -142,6 +143,7 @@ public class PLAYER2 : MonoBehaviour
     // Update is called once per frame
     void applyDamage()
     {
+        Shake.Shakeit();
         ohterPlayer2.m_resist.m_CurrStamina -= m_attack.m_damage;
         Debug.Log("stamina p1: " + ohterPlayer2.m_resist.m_CurrStamina);
         b_isHurt = false;

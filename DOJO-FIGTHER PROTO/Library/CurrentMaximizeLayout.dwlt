@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 713, y: 674}
-  m_MaxSize: {x: 18008, y: 18024}
+  m_MinSize: {x: 707, y: 698}
+  m_MaxSize: {x: 18002, y: 18048}
   vertical: 0
-  controlID: 2928
+  controlID: 8010
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -55,17 +55,17 @@ MonoBehaviour:
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 09000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -768
-    m_HBaseRangeMax: 768
-    m_VBaseRangeMin: -432
-    m_VBaseRangeMax: 432
+    m_HBaseRangeMin: -307.2
+    m_HBaseRangeMax: 307.2
+    m_VBaseRangeMin: -78.4
+    m_VBaseRangeMax: 78.4
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -85,7 +85,7 @@ MonoBehaviour:
       y: 17
       width: 768
       height: 196
-    m_Scale: {x: 0.22685185, y: 0.22685185}
+    m_Scale: {x: 1.25, y: 1.25}
     m_Translation: {x: 384, y: 98}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -93,12 +93,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1692.7347
-      y: -432
-      width: 3385.4695
-      height: 864
+      x: -307.2
+      y: -78.4
+      width: 614.4
+      height: 156.8
     m_MinimalGUI: 1
-  m_defaultScale: 0.22685185
+  m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 960, y: 266.25}
@@ -128,10 +128,10 @@ MonoBehaviour:
     y: 0
     width: 770
     height: 731
-  m_MinSize: {x: 232, y: 674}
-  m_MaxSize: {x: 10002, y: 18024}
+  m_MinSize: {x: 230, y: 698}
+  m_MaxSize: {x: 10000, y: 18048}
   vertical: 1
-  controlID: 2929
+  controlID: 7905
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,8 +151,8 @@ MonoBehaviour:
     y: 0
     width: 770
     height: 224
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -191,9 +191,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: -0.058923174}
+    m_Target: {x: 8.363541, y: -2.19, z: 0}
     speed: 2
-    m_Value: {x: 0, y: 0, z: -0.058923174}
+    m_Value: {x: 8.363541, y: -2.19, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -225,9 +225,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.1676593
+    m_Target: 13.374726
     speed: 2
-    m_Value: 1.1676593
+    m_Value: 13.374726
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -348,8 +348,8 @@ MonoBehaviour:
     y: 224
     width: 770
     height: 233
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -384,7 +384,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -7200
+  m_LastSelectedObjectID: -1070
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -404,8 +404,8 @@ MonoBehaviour:
     y: 457
     width: 770
     height: 274
-  m_MinSize: {x: 232, y: 274}
-  m_MaxSize: {x: 10002, y: 10024}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -449,21 +449,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Dummie
+    - Assets/Scripts/PLAYER
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts/Dummie
+  - Assets/Scripts/PLAYER
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\Users\personal\Documents\GitHub\Dojo_Fighters\DOJO-FIGTHER
+  m_LastProjectPath: C:\Users\Xc170\OneDrive\Documentos\GitHub\Dojo_Fighters\DOJO-FIGTHER
     PROTO
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a300000
-    m_LastClickedID: 12362
-    m_ExpandedIDs: 00000000a0260000de2600008027000000ca9a3b
+    scrollPos: {x: 0, y: 19}
+    m_SelectedIDs: dc0b0000
+    m_LastClickedID: 3036
+    m_ExpandedIDs: 0000000090090000dc090000800a0000a00a00005a0c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,7 +491,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a0260000de2600008027000000ca9a3b
+    m_ExpandedIDs: 0000000090090000dc090000800a0000a00a00005a0c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -516,8 +516,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e0e3ffff
-    m_LastClickedInstanceID: -7200
+    m_SelectedInstanceIDs: d2fbffff
+    m_LastClickedInstanceID: -1070
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000543400006439000068390000962b0000c6280000202a00005e350000809a0000b42b00006c30000000000000
     m_RenameOverlay:
@@ -565,8 +565,8 @@ MonoBehaviour:
     y: 0
     width: 325
     height: 731
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -604,7 +604,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 24e8ffffe6f9ffff
+      m_ExpandedIDs: d4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -679,10 +679,10 @@ MonoBehaviour:
     y: 0
     width: 441
     height: 731
-  m_MinSize: {x: 277, y: 198}
-  m_MaxSize: {x: 4002, y: 8048}
+  m_MinSize: {x: 277, y: 174}
+  m_MaxSize: {x: 4002, y: 8024}
   vertical: 1
-  controlID: 2823
+  controlID: 8011
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -702,8 +702,8 @@ MonoBehaviour:
     y: 0
     width: 441
     height: 525
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}

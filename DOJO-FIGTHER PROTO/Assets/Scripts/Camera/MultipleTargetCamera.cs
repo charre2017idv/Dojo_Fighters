@@ -71,4 +71,6 @@ public class MultipleTargetCamera : MonoBehaviour
 
         return bounds.center;
     }
+
+
 }
