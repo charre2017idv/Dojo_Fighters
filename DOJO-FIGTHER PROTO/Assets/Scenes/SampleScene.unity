@@ -861,7 +861,7 @@ PrefabInstance:
     - target: {fileID: 7472567511572306696, guid: 6874850ff0c7f5a49b7bdeec4216b2e4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.81
+      value: -4.49
       objectReference: {fileID: 0}
     - target: {fileID: 7472567511572306696, guid: 6874850ff0c7f5a49b7bdeec4216b2e4,
         type: 3}
@@ -922,6 +922,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: CARTELES
       objectReference: {fileID: 0}
+    - target: {fileID: 9219183870955757815, guid: 303e9b4255be9f44f980275d4f8da9d5,
+        type: 3}
+      propertyPath: m_sound
+      value: 
+      objectReference: {fileID: 1570573799}
+    - target: {fileID: 9219183870506188242, guid: 303e9b4255be9f44f980275d4f8da9d5,
+        type: 3}
+      propertyPath: m_sound
+      value: 
+      objectReference: {fileID: 1570573799}
     - target: {fileID: 9219183871181306080, guid: 303e9b4255be9f44f980275d4f8da9d5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -977,15 +987,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9219183870506188242, guid: 303e9b4255be9f44f980275d4f8da9d5,
-        type: 3}
-      propertyPath: m_sound
-      value: 
-      objectReference: {fileID: 1570573799}
-    - target: {fileID: 9219183870955757815, guid: 303e9b4255be9f44f980275d4f8da9d5,
-        type: 3}
-      propertyPath: m_sound
-      value: 
-      objectReference: {fileID: 1570573799}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 303e9b4255be9f44f980275d4f8da9d5, type: 3}
