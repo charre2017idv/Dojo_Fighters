@@ -620,10 +620,10 @@ GameObject:
   - component: {fileID: 5149138975790673231}
   - component: {fileID: 5149138975790673217}
   - component: {fileID: 5149138975790673230}
-  - component: {fileID: 5149138975790673229}
   - component: {fileID: 5149138975790673216}
   - component: {fileID: 5149138975790673219}
   - component: {fileID: 5149138975790673218}
+  - component: {fileID: 3923395955728119699}
   m_Layer: 0
   m_Name: player1
   m_TagString: Untagged
@@ -801,31 +801,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.8207693, y: 5.5799327}
   m_EdgeRadius: 0
---- !u!114 &5149138975790673229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5149138975790673227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17631d2fcc200174c96cacf77c6ff2b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_move: {fileID: 5149138975790673226}
-  m_attack: {fileID: 5149138975790673228}
-  m_dash: {fileID: 5149138975790673219}
-  m_resist: {fileID: 5149138975790673217}
-  m_fighter: {fileID: 5149138975790673216}
-  m_barraStamina: {fileID: 0}
-  m_barraAura: {fileID: 0}
-  m_myCartel: {fileID: 0}
-  m_otherCartel: {fileID: 0}
-  m_sound: {fileID: 0}
-  ohterPlayer: {fileID: 0}
-  m_speed: 6
-  b_isKO: 0
 --- !u!114 &5149138975790673216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -882,3 +857,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3923395955728119699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5149138975790673227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 910aebf225daeca46ac60280a61d8191, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_move: {fileID: 5149138975790673226}
+  m_attack: {fileID: 5149138975790673228}
+  m_dash: {fileID: 5149138975790673219}
+  m_resist: {fileID: 5149138975790673217}
+  m_fighter: {fileID: 5149138975790673216}
+  m_barraStamina: {fileID: 0}
+  m_barraAura: {fileID: 0}
+  m_myCartel: {fileID: 0}
+  m_otherCartel: {fileID: 0}
+  m_sound: {fileID: 0}
+  ohterPlayer: {fileID: 0}
+  m_speed: 6
+  b_isKO: 0
